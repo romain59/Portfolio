@@ -1,5 +1,5 @@
 
-/*
+
 function valider() {
      // si la valeur du champ nom est non vide
     if (
@@ -20,4 +20,3 @@ function valider() {
     }
 }
 
-*/
