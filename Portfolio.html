@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon portfolio</title>
+    <link rel="stylesheet" href="bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css.css" type="text/css">
+</head>
+<body>
+
+
+        <header class="container-fluid header">
+        <div class="container">
+            <a href="#" class="logo">Bon Romain</a>
+            <nav class="menu">
+                <a href="#">Acceuil</a>
+                <a href="#about">A propos</a>
+                <a href="#cv">Cv</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+        </header>
+
+        <section class="container-fluid banner">
+            <div class="ban">
+                <img src="https://i.kinja-img.com/gawker-media/image/upload/s--EppZBNBZ--/c_scale,f_auto,fl_progressive,q_80,w_800/of68bptddmj6hrprfir6.jpg" alt="bannière du site">
+            </div>
+            <div class="inner-banner">
+                <h1>Développeur Front-End</h1>
+                <hr class="separator2">
+                <p class="color">Vous recherchez un développeur Front-end, passionné par la création de site, d'applications mobiles et le responsive design, <br> alors ma candidature devrait vous intéresser !</p>
+                <button class="btn btn-custom mt-3">Qui suis-je ?</button>
+            </div>
+        </section>
+
+        <section class="container-fluid about mb-5" id="about">
+            <h2 class="titre">A propos de moi !</h2>
+            <hr class="separator mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                       <h2 class="mb-3">Languages</h2>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>XHTML</li>
+                            <li>CSS3</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 class="mb-3"> Etudes</h2>
+                    </div>
+                    <div class="col-sm-4">
+                       <h2 class="mb-3"> Mes Hobbies</h2>
+                        <ul>
+                            <li>Informatique</li>
+                            <li>Jeux Vidéo</li>
+                            <li>Football</li>
+                            <li>Cuisine</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cv" id="cv">
+            <h2 class="mb-5"> Bon Romain - développeur Front-end !</h2>
+            <a class="btn btn-light btn-lg" href=""> Telechargez mon Cv au format Pdf !</a>
+        </section>
+
+        <section class="section" id="contact">
+            <h2 class="contact">Contactez moi !</h2>
+            <hr class="separator mb-5">
+            <p class="span">Vous recherchez un développeur Front-end passionné !</p>
+            <div class="container mt-5">
+                <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3">
+                    <img class="mb-3" src="https://www.shareicon.net/download/2016/11/14/852329_phone.svg" width="50px" alt=""><br>
+                    <span>0767854957 </span>
+                </div>
+                    <div class="col-sm-1"></div>
+                <div class="col-sm-3">
+                    <img class="mb-2" src="https://www.shareicon.net/download/2016/08/01/639922_email_512x512.png" width="50px" alt=""><br>
+                    <span style="color: #E82C0C;">romaiinn1302@gmail.com</span>
+                </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="separator mb-5">
+
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-5">
+                <div class="form-area">
+                    <form method="post" enctype="text/plain" action="romaiinn1302@gmail.com">
+                        <br style="clear:both">
+                        <h3 style="margin-bottom: 25px; text-align: center;">Formulaire de Contact</h3>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Entrez votre Nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Entrez votre prenom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Entrez votre Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+                        </div>
+
+                        <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Valider</button>
+                    </form>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-3"></div>
+            </div>
+        </div>
+
+        <script src="js.js" type="text/javascript"></script>
+
+</body>
+</html>
